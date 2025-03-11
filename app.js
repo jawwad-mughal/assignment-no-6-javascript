@@ -44,4 +44,47 @@
 //     message='This letter does not match. Please enter correct input.'
 // };
 // console.log(message);
+
+// Q6
+// let input = 'Hyderabad';
+// console.log(input);
+// let change = input.replace('Hyder','Islam');
+// console.log(change);
+
+// Q7
+// let message = 'Ali and Sami are best friends. They play cricket and football together.';
+// console.log(message);
+// let change = message.replaceAll('and','&');
+// console.log(change);
+
+// Q8
+// let num = '472';
+// let a = typeof num
+// console.log(num);
+// console.log(a);
+// let change = Number(num);
+// let b = typeof change;
+// console.log(change);
+// console.log(b);
+
+// Q9
+// let fruit = 'peanuts';
+// console.log(fruit);
+// let c = fruit.toUpperCase();
+// console.log(c);
+
+// Q10
+// let userInput = 'Javascript is a programming.';
+// let words = userInput.toLowerCase().split(' ');
+// console.log(words);
+// let titleCase='';
+
+// for(let i = 0; i < words.length; i++){
+//     titleCase +=  words[i].charAt(0).toUpperCase() + words[i].slice(1);
+
+//     if(true){
+//         titleCase += ' ';
+//     };
+// }
+// console.log(titleCase);
 // STRING METHODS (end)

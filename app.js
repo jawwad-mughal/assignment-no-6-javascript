@@ -86,5 +86,38 @@
 //         titleCase += ' ';
 //     };
 // }
-// console.log(titleCase);
+// document.writeln(titleCase);
+
+// Q11
+// let num = '35.32';
+// let result = String(num).replace('.','');
+// console.log(result);
+
+// Q12
+// let store = ['applepie','cake','cookie','chips','patties'];
+// console.log(store);
+// let itemsCheck = prompt('Enter your items');
+// let flag = true;
+// let message;
+// for(let i = 0; i < store.length; i++){
+//     if(store[i]===itemsCheck){
+//         flag = true;
+//         message = `${itemsCheck} is <b>avaible</b> at index ${i} in our bakery`;
+//         break;
+//     }
+// };
+// if(!flag){
+//     message = `We are sorry. ${itemsCheck} is <b>not available</b> in our bakery`;
+// }
+// document.write(message);
+
+// Q13
+let university = 'University of Karachi';
+
+for(let i = 0; i<university.length;i++){
+     
+    document.write(university.charAt(i),'<br/>');
+
+}
+
 // STRING METHODS (end)

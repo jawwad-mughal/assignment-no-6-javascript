@@ -175,5 +175,5 @@ console.log(diceValue);
 // Q5
 let randomValue = Math.random();  
 let result =  randomValue < 0.5 ? "Heads" : "Tails";
-console.log(result);
+console.log(result)
 // MATH METHODS (end)

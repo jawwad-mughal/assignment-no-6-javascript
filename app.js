@@ -112,12 +112,68 @@
 // document.write(message);
 
 // Q13
-let university = 'University of Karachi';
+// let university = 'University of Karachi';
+// for(let i = 0; i<university.length;i++){
+//     document.write(university.charAt(i),'<br/>');
+// };
 
-for(let i = 0; i<university.length;i++){
-     
-    document.write(university.charAt(i),'<br/>');
-
-}
+// Q14
+// let userInput = 'pakistan';  
+// if (userInput) {    
+//     let lastCharacter = userInput[userInput.length-1] ;  
+//     console.log("The last character is: " + lastCharacter);  
+// } else {  
+//     console.log("You did not enter anything.");  
+// } 
 
 // STRING METHODS (end)
+
+// MATH METHODS (start)
+// Q1
+// A
+// let num = 3.45214;
+// console.log(num);
+
+// B
+// num = Math.round(num);
+// console.log(num);
+
+// C
+// num = Math.floor(num);
+// console.log(num);
+
+// D
+// num = Math.ceil(3.45214);
+// console.log(num);
+
+// Q2
+// A
+// let num1 = -2.673;
+// console.log(num1);
+
+// B
+// num1 = Math.round(num1)
+// console.log(num1);
+
+// C
+// num1 = Math.floor(num1);
+// console.log(num1);
+
+// D
+// num1 = Math.ceil(-2.673);
+// console.log(num1);
+
+// Q3
+// let input = parseFloat(-2.35);
+// let absoluteValue = Math.abs(input);
+// console.log(input , absoluteValue);
+
+// Q4
+let diceValue = Math.floor(Math.random() * 6) + 1;  
+console.log(diceValue); 
+
+// Q5
+let randomValue = Math.random();  
+let result =  randomValue < 0.5 ? "Heads" : "Tails";
+console.log(result);
+// MATH METHODS (end)

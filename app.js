@@ -169,15 +169,76 @@
 // console.log(input , absoluteValue);
 
 // Q4
-let diceValue = Math.floor(Math.random() * 6) + 1;  
-console.log(diceValue); 
+// let diceValue = Math.floor(Math.random() * 6) + 1;  
+// console.log(diceValue); 
 
 // Q5
-let randomValue = Math.random();  
-let result =  randomValue < 0.5 ? "Heads" : "Tails";
-console.log(result);
+// let randomValue = Math.random();  
+// let result =  randomValue < 0.5 ? "Heads" : "Tails";
+// console.log(result);
 
 // Q6
-let a = Math.floor(Math.random()*100)+1
-console.log(a)
+// let a = Math.floor(Math.random() * 100) + 1;
+// console.log(a);
+
+// Q7
+// const userInput = prompt("Enter your weight (e.g., 50, 50kgs, 50.2kgs, 50.2kilograms):");
+// let a = userInput.replace(/kgs|kilograms/, '');
+// let message = `The weight of user is ${a} kgs`
+// console.log(message);
+
+// Q8
+    // const secretNumber = Math.floor(Math.random() * 10) + 1;   
+    // const userInput = prompt("Please enter a number between 1 and 10:");  
+    // const userGuess = parseInt(userInput);  
+    // if (userGuess >= 1 && userGuess <= 10) {    
+    // if (userGuess === secretNumber) {  
+    // console.log("Congratulations! You guessed the correct number!");  
+    // } else {  
+    //         console.log(`Sorry, the secret number was ${secretNumber}. Try again!`);  
+    //         }  
+    // } else {  
+    //     console.log("Invalid input. Please enter a number between 1 and 10.");  
+    //         }  
+
 // MATH METHODS (end)
+
+// DATE METHODS (start)
+// Q1
+// let currentTime = new Date();
+// console.log(currentTime);
+
+// Q2
+// const months = [  
+//     "January", "February", "March", "April", "May", "June",  
+//     "July", "August", "September", "October", "November", "December"  
+// ];
+// let monthIndex = new Date().getMonth();
+// let currentMonth = months[monthIndex];
+// console.log(currentMonth);
+
+// Q3
+// let days = ['Mon','tue','Wed','Thus','fri','sat','sun'];
+// let daysIndex = new Date().getDay();
+// let currentDay = days[daysIndex - 1];
+// console.log(currentDay);
+
+// Q4
+// let inputDay = prompt('Enter your days');
+// let message ; 
+// if(inputDay === 'saturday' || inputDay === 'sunday'){
+//     message = `${inputDay}: It's Fun day`;
+// }else{ 
+//     message = `${inputDay}: It's a normal day`;
+// }
+// console.log(message);
+
+// Q5
+const today = new Date();  
+const day = today.getDate();  
+if (day < 16) {  
+    console.log("First fifteen days of the month");  
+} else {  
+    console.log("Last days of the month");  
+} 
+// DATE METHODS (end)

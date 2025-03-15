@@ -206,7 +206,7 @@
 // DATE METHODS (start)
 // Q1
 // let currentTime = new Date();
-// console.log(currentTime);
+// console.log('Current Date:',currentTime);
 
 // Q2
 // const months = [  
@@ -234,11 +234,21 @@
 // console.log(message);
 
 // Q5
-const today = new Date();  
-const day = today.getDate();  
-if (day < 16) {  
-    console.log("First fifteen days of the month");  
-} else {  
-    console.log("Last days of the month");  
-} 
+// const today = new Date();  
+// const day = today.getDate();  
+// if (day < 16) {  
+//     console.log("First fifteen days of the month");  
+// } else {  
+//     console.log("Last days of the month");  
+// } 
+
+// Q6
+
+const now = new Date();  
+const millisec = now.getTime();  
+const minutesSinceEpoch = millisec / (1000 * 60); 
+console.log('Current Date:',now); 
+console.log('Elapsed milliseconds since january 1, 1970:',millisec);
+console.log('Elapsed Minutes since january 1, 1970:',minutesSinceEpoch);
+
 // DATE METHODS (end)
